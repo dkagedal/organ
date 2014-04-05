@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Lennarts orgel
+Comment=Organ Emulator
+Exec=/home/lennart/orgel/orgel.sh
+Terminal=false
+Type=Application
+Icon=audio-x-generic
+Categories=AudioVideo;Audio;
