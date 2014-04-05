@@ -12,11 +12,11 @@ aeolus -A -d hw:CARD=Intel,DEV=0 -N aeolus -W $HOME/waves -u&
 sleep 5
 
 echo ===== Starting MIDI channel remapper
-miditools/midichan -v -n 4 &
+midichan -v -n 4 &
 sleep 1
 
 echo ===== Starting MIDI autoconnector
-miditools/autoconnect -v \
+autoconnect -v \
 	'Channel Enforcer':4 aeolus \
 	'Keystation 61e' 'Channel Enforcer':0 \
 	'eKeys-49 USB MIDI Keyboard' 'Channel Enforcer':1 \
